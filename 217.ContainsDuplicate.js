@@ -20,9 +20,9 @@ Output: true
 
  * @param {number[]} nums
  * @return {boolean}
- */
-var containsDuplicate = function(nums) {
-    //prep 
+ 
+ 
+  //prep 
     //for in loop
     //loop over each element in the array
     //store in variable
@@ -38,7 +38,8 @@ var containsDuplicate = function(nums) {
 
     //OR: 
     //Turn it into a set, see if the length of the set and length of nums are equal.
-    
+ */
+var containsDuplicate = function(nums) {
     const set = new Set(nums)
     if (set.size === nums.length){
         return false
